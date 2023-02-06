@@ -1,0 +1,172 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,400&display=swap');
+
+body {
+	margin: 0;
+	background-color: white;
+}
+
+li, a, button, div{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100px;
+	font-style: italic;
+	font-size:20px;
+	text-decoration: none;
+	color: white;
+}
+p {font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+}
+
+/*Header*/
+header{
+	display : flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding:30px 10%;
+	position: relative;
+	background-color:#268994 ;
+}
+
+.nav-links{
+	list-style: none;
+
+}
+
+.nav-links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav-links li a{
+	transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+
+    text-decoration:underline;
+	color:#FFCB20;
+}
+
+button{
+	margin-left: 20px;
+	padding: 5px 25px;
+	background-color: #;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition:all 0.3s ease 0s ;
+	background-color: #0F5E57;
+	color: white;
+	font-style: italic ;
+}
+
+button:hover{
+	background-color:#FFCB20;
+}
+
+@media screen and (max-width:540px) {
+	.topnav{
+		flex-direction: column;
+	}
+}
+
+/*Servicios*/
+
+.secundario{
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-weight: 400px bold;
+	text-align: center;
+	margin-top: 40px;
+	color:#0F5E57;
+	border: 10px solid transparent; 
+    border-bottom-color: #FFCB20 ; 
+    box-sizing: border-box; 
+    padding: 20px; 
+    width: inherit;
+}
+
+.servicios{
+	width: 100%;
+	margin: 0 auto;
+	padding: 40px;
+    }
+
+.servicios li{
+	display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    background-color: #268994;
+    border-radius:50px;
+    color: white;
+    flex: center;
+}
+
+.icon{
+	width: auto;
+	height: 15%;
+	align-items: center;
+	text-align: center;
+}
+
+.info{
+	margin-bottom: 10px;
+	border-radius: 20px;
+	color: black;
+	display: inline-block;
+	background-color:#FFCB20;
+	border-radius: 50px;
+	padding: 5px 40px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.info:hover{
+	transition:all 0.3s ease 0s ;
+	transform: scale(1.2);
+}
+
+.final{
+	background-color: #0F5E57;
+}
+
+/*Servicios1*/
+.terciario{
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-weight: 400px bold;
+	text-align: left;
+	margin-left: 40px;
+	margin-top: 40px;
+	color:#FFCB20;
+}
+
+
+/*footer*/
+
+.final{
+	text-align: center;
+	align-items: center;
+	width: 0 auto;
+	height: 20%;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: black;
+  background-color:#FFCB20 ;
+  margin-top: 40px;
+}
+
+.copyright{
+	color: white;
+}
