@@ -6,7 +6,7 @@ body {
 	background-color: white;
 }
 
-li, a, button, div{
+a, button, div{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100px;
 	font-style: italic;
@@ -21,21 +21,33 @@ p {font-family: 'Montserrat', sans-serif;
 /*Header*/
 header{
 	display : flex;
-	justify-content: flex-end;
 	align-items: center;
-	padding:30px 10%;
-	position: relative;
+	padding:0px 10%;
 	background-color:#268994 ;
+	height: 20%;
+}
+
+.logo{
+	height: 200px;
+	cursor:pointer;
+	background-color: transparent;
+	text-align: left;
+	align-items: left10
 }
 
 .nav-links{
 	list-style: none;
-
+	text-align: right;
+	align-items: right;
+	padding-left: 540px;	
+	display: flex;
 }
 
 .nav-links li{
-	display: inline-block;
-	padding: 0px 20px;
+	display: flex;
+	text-align: right;
+	align-items: right;
+	padding-right: 30px;	
 }
 
 .nav-links li a{
@@ -93,9 +105,10 @@ button:hover{
     }
 
 .servicios li{
-	display: inline-block;
+	 display: inline-block;
     text-align: center;
     width: 20%;
+    height:65%;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 40px 30px;
@@ -114,13 +127,13 @@ button:hover{
 }
 
 .info{
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	border-radius: 20px;
 	color: black;
 	display: inline-block;
 	background-color:#FFCB20;
 	border-radius: 50px;
-	padding: 5px 40px;
+	padding: 5px 20px;
 	font-style: normal;
 	font-weight: bold;
 }
@@ -145,6 +158,50 @@ button:hover{
 	color:#FFCB20;
 }
 
+.sider{
+	width: 25%;
+	height: 553px;
+	margin-top: 0px;
+	margin-left: 40px;
+}
+
+.cuarteando{
+	font-family: 'Montserrat', sans-serif;
+	font-style: bold;
+	font-weight: 360px bold;
+	margin-left: 40px;
+	color:#0F5E57;
+}
+
+.descripcion1{
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-weight: 300px bold;
+	margin-left: 80px;
+	margin-right: 80px;
+	color:black;
+	margin-right: 40px;
+	text-align: justify;
+}
+
+.lista_ordenada{
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	margin-left: 60px;
+	margin-right: 40px;
+	color:black;
+	font-weight: 200px bold;
+}
+
+.normativa{
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	margin-left: 60px;
+	margin-right: 40px;
+	color:black;
+	font-weight: 200px bold;
+	text-decoration-line: underline;
+}
 
 /*footer*/
 
@@ -167,6 +224,15 @@ button:hover{
   margin-top: 40px;
 }
 
+.logo-final{
+	height: 100%;
+	cursor:pointer;
+	background-color: transparent;
+}
 .copyright{
 	color: white;
+ 	font-size: 13px;
+  margin:5px;
+  align-items: center;
+  text-align: center;
 }
